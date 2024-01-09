@@ -52,25 +52,27 @@ class Cat
     ]
 
     puts "\n"
-    puts "Maybe #{self.name} is hungry. What should we feed them?"
-    puts "1. Dry cat food"
-    puts "2. Wet cat food"
-    puts "3. Nevermind, #{self.name} doesn't look hungry."
+    puts "Maybe #{self.name} is hungry. Should we feed them?"
+    puts "1. Fill up #{self.name}'s food bowl."
+    puts "2. Nevermind, #{self.name} doesn't look hungry."
     choice = gets.chomp.to_i
     case choice
     when 1
       puts "\n"
-      puts "You feed #{self.name} some dry cat food."
+      puts "You leave some food in #{self.name}'s food bowl."
       puts "#{self.name} #{reaction.sample}"
     when 2
       puts "\n"
-      puts "You feed #{self.name} some wet cat food."
-      puts "#{self.name} #{reaction.sample}"
-    when 3
+      puts "#{self.name} walks away from the food bowl."
     end
   end
 
   def play
+    puts "\n"
+    puts "Let's play with #{self.name}!"
+    puts "What should we do?"
+    puts "1. Play with cat nip plush toy"
+    puts "2. Play with"
   end
 
   def pet
