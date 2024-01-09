@@ -68,13 +68,6 @@ class Cat
   end
 
   def play
-    reaction = [
-      "is curious about the",
-      "doesn't seem to want to eat it.",
-      "ate a little bit of it.",
-      "ignores the food bowl."
-    ]
-
     puts "\n"
     puts "Let's play with #{self.name}!"
     puts "What should we play with?"
