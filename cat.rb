@@ -4,7 +4,7 @@ class Cat
   def adopt
     puts "\n"
     puts "Meowdy! Welcome to the Ruby Cat Shelter!"
-    puts "Congrats on your decision to adopting a new cat, what color cat are you adopting?"
+    puts "Congratulations on your decision to adopt a new cat! What color cat are you adopting?"
     self.color = gets.chomp
     puts "What are you naming your #{self.color} cat?"
     self.name = gets.chomp.capitalize
@@ -82,7 +82,7 @@ class Cat
       puts "#{self.name} bites onto the plush toy."
     when 2
       puts "\n"
-      puts "#{self.name} watches the feather on the want and chases after it."
+      puts "#{self.name} eyes the feather on the wand and chases after it."
     when 3
       puts "\n"
       puts "#{self.name} walks over to the scratch pad and starts scratching."
