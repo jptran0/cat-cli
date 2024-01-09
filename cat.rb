@@ -1,6 +1,11 @@
 class Cat
   attr_accessor :name, :color
 
+  def initialize
+    @name = name
+    @color = color
+  end
+  
   def adopt
     puts "\n"
     puts "Meowdy! Welcome to the Ruby Cat Shelter!"
