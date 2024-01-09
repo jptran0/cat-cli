@@ -68,11 +68,33 @@ class Cat
   end
 
   def play
+    reaction = [
+      "is curious about the",
+      "doesn't seem to want to eat it.",
+      "ate a little bit of it.",
+      "ignores the food bowl."
+    ]
+
     puts "\n"
     puts "Let's play with #{self.name}!"
-    puts "What should we do?"
-    puts "1. Play with cat nip plush toy"
-    puts "2. Play with"
+    puts "What should we play with?"
+    puts "1. Cat nip plush toy"
+    puts "2. Feather wand"
+    puts "3. Scratch pad"
+    puts "4. Nevermind, #{self.name} doesn't look like it wants to play."
+    choice = gets.chomp.to_i
+    case choice
+    when 1
+      puts "\n"
+      puts "#{self.name} bites onto the plush toy."
+    when 2
+      puts "\n"
+      puts "#{self.name} watches the feather on the want and chases after it."
+    when 3
+      puts "\n"
+      puts "#{self.name} walks over to the scratch pad and starts scratching."
+    when 4
+    end
   end
 
   def pet
