@@ -98,6 +98,16 @@ class Cat
   end
 
   def pet
+    reaction = [
+      "begins to purr.",
+      "hisses and tries to scratch you.",
+      "meows and seems relaxed.",
+      "runs away."
+    ]
+
+    puts "\n"
+    puts "You pet #{self.name}."
+    puts "#{self.name} #{reaction.sample}"
   end
 
   def condition
