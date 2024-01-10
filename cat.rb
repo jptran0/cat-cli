@@ -113,7 +113,6 @@ class Cat
       "neutral",
       "sleepy",
       "hungry",
-      "neutral",
       "bored",
       "playful",
       "like it wants attention"
